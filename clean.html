@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texas Crime and House Deep Cleaning</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #333; color: white; padding: 1em 0; text-align: center; }
+        nav { margin: 0; padding: 1em; background: #444; text-align: center; }
+        nav a { color: white; margin: 0 1em; text-decoration: none; }
+        .hero { background: url('hero-image.jpg') no-repeat center center; background-size: cover; height: 400px; color: white; text-align: center; display: flex; align-items: center; justify-content: center; }
+        .hero h2 { font-size: 2.5em; }
+        .content { padding: 2em; max-width: 1200px; margin: auto; }
+        .services, .team, .testimonials { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .services div, .team div, .testimonials div { flex: 1 1 300px; margin: 1em; padding: 1em; background: #f9f9f9; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
+        .team img, .services img, .testimonials img { width: 100%; height: auto; border-radius: 8px; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 1em; margin: 0.5em 0; border: 1px solid #ccc; border-radius: 4px; }
+        .contact-form button { padding: 1em; background: #333; color: white; border: none; cursor: pointer; border-radius: 4px; }
+        .map iframe { width: 100%; height: 300px; border: none; }
+        footer a { color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Texas Crime and House Deep Cleaning</h1>
+        <p>Your Trusted Cleaning Experts in Texas</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section class="hero">
+        <div>
+            <h2>Your Trusted Cleaning Experts in Texas</h2>
+            <button onclick="window.location.href='#contact'">Get a Free Quote</button>
+        </div>
+    </section>
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <p>Welcome to Texas Crime and House Deep Cleaning. We offer comprehensive cleaning services for homes, apartments, offices, and crime scenes. Our mission is to provide top-notch cleaning services with professionalism and discretion.</p>
+        <div class="team">
+            <div>
+                <img src="john-doe.jpg" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>Founder and CEO</p>
+            </div>
+            <div>
+                <img src="jane-smith.jpg" alt="Jane Smith">
+                <h3>Jane Smith</h3>
+                <p>Operations Manager</p>
+            </div>
+        </div>
+        <div class="testimonials">
+            <div>
+                <img src="testimonial1.jpg" alt="Testimonial 1">
+                <p>"Amazing service! Our house has never been cleaner." - Customer A</p>
+            </div>
+            <div>
+                <img src="testimonial2.jpg" alt="Testimonial 2">
+                <p>"Professional and discreet crime scene cleanup. Highly recommend." - Customer B</p>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="content services">
+        <div>
+            <img src="residential-cleaning.jpg" alt="Residential Cleaning">
+            <h3>Residential Cleaning</h3>
+            <p>We offer comprehensive cleaning for homes and apartments, including dusting, vacuuming, and mopping.</p>
+        </div>
+        <div>
+            <img src="commercial-cleaning.jpg" alt="Commercial Cleaning">
+            <h3>Commercial Cleaning</h3>
+            <p>Customized cleaning plans for offices and businesses to ensure a clean and professional environment.</p>
+        </div>
+        <div>
+            <img src="crime-scene-cleaning.jpg" alt="Crime Scene Cleaning">
+            <h3>Crime Scene Cleaning</h3>
+            <p>Professional and discreet cleanup of crime scenes, ensuring safety and thoroughness.</p>
+        </div>
+        <div>
+            <img src="deep-cleaning.jpg" alt="Deep Cleaning">
+            <h3>Deep Cleaning</h3>
+            <p>Thorough cleaning for move-ins, move-outs, and seasonal deep cleaning needs.</p>
+        </div>
+    </section>
+    <section id="pricing" class="content">
+        <h2>Pricing</h2>
+        <p>We offer various cleaning packages to suit your needs. Contact us for a customized quote.</p>
+    </section>
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="send_mail.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.12441706556!2d-122.41941618468147!3d37.77492977975919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5a1d4e8f%3A0x0a!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1633024805220!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Texas Crime and House Deep Cleaning</p>
+        <p>
+            <a href="#home">Home</a> |
+            <a href="#about">About Us</a> |
+            <a href="#services">Services</a> |
+            <a href="#pricing">Pricing</a> |
+            <a href="#contact">Contact Us</a>
+        </p>
+    </footer>
+</body>
+</html>
